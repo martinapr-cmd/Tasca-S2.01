@@ -1,5 +1,5 @@
 SELECT clients.name,
-       COUNT(*) AS total_compres
+       COUNT(*) AS total_sales
 FROM sales
 JOIN clients ON sales.client_id = clients.client_id
 WHERE clients.client_id = 1
